@@ -1,0 +1,133 @@
+/* Universal Setting */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Header Session */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  z-index: 2;
+}
+
+header img {
+  padding-left: 10px;
+  height: 50px;
+}
+
+header a {
+  color: #fff;
+  padding-right: 10px;
+  text-decoration: underline;
+}
+
+/* Mission Section */
+
+main {
+  background-image: url("./image/img-mission-background.jpg");
+  background-position: top center;
+  position: relative;
+  top: 69px;
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: black;
+  color: #fff;
+  width: 1200px;
+  padding: 10px;
+  }
+
+/* Highlight */
+
+section {
+  position: relative;
+  top: 138px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.product img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+section .product {
+  display: inline-flex;
+}
+
+/* Location */
+
+.location {
+  position: relative;
+  top: 200px;
+  background-image: url("./image/img-locations-background.jpg");
+  background-position: center;
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.location h2 {
+  padding-top: 75px;
+}
+
+.box {
+  display: inline-flex;
+  background-color: black;
+  color: #fff;
+  height: 300px;
+  width: 300px;
+  margin: 15px 40px;
+  opacity: 1;
+}
+
+.location .container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+footer {
+  position: relative;
+  top: 200px;
+}
+
+footer .contact {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer .copyright {
+  text-align: left;
+  margin: 20px;
+}
